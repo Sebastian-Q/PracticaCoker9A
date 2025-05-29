@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin("*")
 public class User2Controller {
     @GetMapping("")
-    public String getMessage(){
-        return "Mensaje editado por primera vez";
+    public String getMessageUltimate(){
+        return "Mensaje editado por segunda vez";
     }
 }
