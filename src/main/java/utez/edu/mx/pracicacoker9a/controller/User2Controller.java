@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class User2Controller {
     @GetMapping("")
     public String getMessage(){
-        return "Hola desde el controlador user2";
+        return "Mensaje editado por primera vez";
     }
 }
