@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class User2Controller {
     @GetMapping("")
     public String getMessageUltimate(){
-        return "Mensaje editado por segunda vez";
+        return "Mensaje editado por tercera vez";
     }
 }
